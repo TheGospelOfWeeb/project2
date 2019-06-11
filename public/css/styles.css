@@ -1,0 +1,30 @@
+nav .brand-logo{
+    margin-left: 80px;
+}
+
+.move-left{
+    margin-right: 80px;
+}
+
+.img-resize{
+    height: 700px;
+}
+
+.img-size1{
+    height: 80px;
+    width: auto;
+    padding-top: 15px;
+}
+
+.take-off-blue{
+    color: black;
+}
+
+.padding-aboutus{
+    padding: 10px;
+    color: #fff;
+}
+
+.change-font-size{
+    font-size: 20px;
+}
