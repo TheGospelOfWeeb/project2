@@ -10,3 +10,7 @@ $('.carousel.carousel-slider').carousel({
 setInterval(function () {
     $('.carousel').carousel('next');
 }, 4000);
+
+$(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+  });
