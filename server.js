@@ -28,6 +28,10 @@ router.get('/contact',function(req,res){
   res.sendFile(path.join(__dirname + "/public/contact.html"));
 });
 
+router.get('/inventory',function(req,res){
+  res.sendFile(path.join(__dirname + "/public/inventory.html"));
+});
+
 
 app.use(express.static(__dirname + '/public'));
 
