@@ -35,6 +35,7 @@ router.get('/inventory',function(req,res){
 
 app.use(express.static(__dirname + '/public'));
 
+
 app.use('/', router);
 app.listen(PORT, function() {
   console.log("App lisening on PORT" + PORT);
