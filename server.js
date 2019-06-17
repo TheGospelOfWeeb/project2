@@ -9,6 +9,10 @@ var PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ ectended: false }));
 app.use(bodyParser.json());
 
+app.use(express.static("app/public"));
+
+require("./app/routes/api-routes.js")(app);
+
 
 
 
